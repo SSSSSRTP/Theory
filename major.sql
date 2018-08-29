@@ -6,7 +6,11 @@
 *最长的专业名称是24个字
 *
 */
+<<<<<<< HEAD
 INSERT INTO major_dic(major_id, major_name) VALUES
+=======
+INSERT INTO major_dic(major_id, college_name) VALUES
+>>>>>>> 4fe05cd7717287961770d2c51976be79da596fb9
 ('0101','土木工程'),
 ('0113','土木类（茅以升学院）'),
 ('0115','土木工程(詹天佑班)'),

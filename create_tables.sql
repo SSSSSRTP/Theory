@@ -9,7 +9,11 @@
 *	5、字段一律限制为 NOT NULL
 *	6、数据字典表以_dic结尾，外键字段以_id结尾
 */
+<<<<<<< HEAD
 CREATE DATABASE dbSRTP CHARACTER SET utf8 COLLATE utf8_general_ci;
+=======
+CREATE DATABASE dbIBM CHARACTER SET utf8 COLLATE utf8_general_ci;
+>>>>>>> 4fe05cd7717287961770d2c51976be79da596fb9
 
 use dbSRTP;
 
@@ -29,7 +33,11 @@ CREATE TABLE IF NOT EXISTS college_dic (
 
 CREATE TABLE IF NOT EXISTS major_dic (
 	major_id VARCHAR(5) PRIMARY KEY COMMENT '专业或实验室编号',
+<<<<<<< HEAD
     major_name VARCHAR(32) NOT NULL COMMENT '专业或实验室名称，20字符以内'
+=======
+    college_name VARCHAR(20) NOT NULL COMMENT '专业或实验室名称，20字符以内'
+>>>>>>> 4fe05cd7717287961770d2c51976be79da596fb9
 )COMMENT='专业（或实验室）信息索引表';
 
 CREATE TABLE IF NOT EXISTS course (
